@@ -18,8 +18,8 @@ const createDisplay = async (img, poketype1, texturl, height, weight, poketype2)
     const ptype2 = getType(poketype2)
     document.getElementById('type2').src = ptype2
     document.querySelector(".pokeindex-right__screen").innerHTML = text
-    document.getElementById('heightfield').innerHTML = `Height: ${height}`
-    document.getElementById('weightfield').innerHTML = `Weight: ${weight}`
+    document.getElementById('heightfield').innerHTML = `Ht: ${height}`
+    document.getElementById('weightfield').innerHTML = `Wt: ${weight}`
 }
 
 const loadData = async (name)=> {
